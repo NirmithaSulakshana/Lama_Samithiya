@@ -1,0 +1,258 @@
+<!DOCTYPE.html>
+<html>
+<title>Membership</title>
+
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="utf-8">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+<link rel="stylesheet" type="text/css" href="form1.css">
+<script src="https://kit.fontawesome.com/adccda97db.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+<img src="logoCr.png" class="logo">
+	<div class="topheader">
+		
+		<p>SHANTHI Cheildren's Society</p>
+		
+	</div>
+<div class="menu">
+		<a href="../events/events.html"><button class="buttonNew button1">Events</button></a>
+		<a href="./Membership.html"><button class="buttonNew button1">Membership</button></a>
+		<a href="../About-Us/aboutus.html"><button class="buttonNew button1">About Us</button></a>
+		<a href="../home page/home_3.html"><button class="buttonNew button1">Home</button></a>
+		
+	</div>
+
+
+<div class="container">  
+	<div class="image">      
+		<div class="imiddle">          
+			<div class="itext" style="font-family:Sofia,sans-serif; font-size:175%; font-weight:20px;"><b>Talent is everywhere<br> opportunity is not <br>We are all losing out because of this</b></div>      
+		</div> 
+  
+		<button id="button" class="btn" onclick="document.getElementById('id01').style.display='block'" style="width:auto; margin-top: 15%; margin-left:0px; margin-right:150px;">Login</button>
+
+		<div id="id01" class="modal">
+  
+         	<form class="modal-content">
+            		<div class="imgcontainer">
+               			<span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+               			<img src="avatar.png" alt="Avatar" class="avatar">
+            		</div>
+
+       			<div class="icontainer">
+          			<label for="uname"><b>Username</b></label>
+           			<input type="text" placeholder="Enter Username" name="uname" required><br>
+
+           			<label for="psw"><b>Password</b></label>
+           			<input type="password" placeholder="Enter Password" name="psw" required><br>
+        
+           			<button id="button" type="submit">Login</button>
+           			<label><input type="checkbox" checked="checked" name="remember"> Remember me</label>
+        		</div>
+    
+        		<div class="icontainer" class="cancelbtn">
+           			<button id="button" type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn" style="background-color: red;">Cancel</button>
+           			<span class="psw">Forgot <a href="#">password?</a></span>
+        		</div>
+
+        	</form>
+		</div>
+
+
+			<div id="myNav" class="overlay">
+  				
+					<div class="bg-img">
+						<a href="javascript:void(0)" class="iclosebtn" onclick="closeNav()">&times;</a>
+
+						<form class="imodal-content">
+    							<div class="icontainer">
+							<div class="reg" class="ibutton">
+      								<h1><center>Registration Form</center></h1>
+								<hr width="100%" size="2" color="goldenrod"/>
+
+								
+								<label for="Name"><b>Name:-</b></label>
+      								<input type="text" placeholder="Enter Name" name="Name" required><br>
+
+								<label for="Adress"><b>Address:-</b></label>
+      								<textarea name="Address" class="textarea" placeholder="Enter Address" name="Address"  rows=3 cols=95 required></textarea> <br>
+				
+								<label for="email"><b>Email:-</b></label>
+      								<input type="text" placeholder="Enter Email" name="email" required><br>
+
+      								<label for="psw"><b>Password:-</b></label>
+      								<input type="password" placeholder="Enter Password" name="psw" required><br>
+
+								<label for="Name"><b>School Name:-</b></label>
+      								<input type="text" placeholder="Enter School Name" name="SName"><br>
+
+								<label><b>Date of Birth:-<b></label>
+								<input type="date" name="bday" style="margin:20px 0px;" min="1999-01-01"><br>
+				
+								Gender:-
+								<input type="radio" name="gender" value="male" checked style="margin:20px 0px;">Male
+								<input type="radio" name="gender" value="Female">Female<br>
+				
+								<li><b>Talents:-</b><br></li>
+								<input type="checkbox" name="c1" value="D1" style="margin-left:60px;">Dance<br>
+								<input type="checkbox" name="c2" value="D2" style="margin-left:60px;">Music<br>
+								<input type="checkbox" name="c3" value="D3" style="margin-left:60px;">Drama<br>
+								<input type="checkbox" name="c4" value="D4" style="margin-bottom:20px; margin-left:60px;">Art<br>
+
+								<hr width="100%" size="2" color="goldenrod"/>
+
+								<h2>Gramaseva Division Details</h2>
+
+								<label for="Name"><b>Gramaseva Division:-</b></label>
+      								<input type="text" placeholder="Enter Gramaseva Division" name="gd" required><br>
+
+								<label><b>Confirmation Letter of Gramaseva Division:-</b></label>
+								<input type="file" id="letter" name="letter" style="margin:20px 0px;" required><br>
+				
+								<hr width="100%" size="2" color="goldenrod"/>
+
+								<h2>Parent's Details</h2>
+
+								<b>Mother's Name:-</b>
+								<input type="text" placeholder="Enter Mother's Name" name="MName"><br>
+
+								<b>Mother's Home Town:-</b>
+								<input type="text" placeholder="Enter Mother's Home Town" name="MTown"><br>
+
+								<b>Father's Name:-</b>
+								<input type="text" placeholder="Enter Father's Name" name="fName"><br>
+
+								<b>Father's Home Town:-</b>
+								<input type="text" placeholder="Enter Father's Home Town" name="fTown"><br>
+
+								<hr width="100%" size="2" color="goldenrod"/>
+
+
+								<p style="margin-top:5px;"> We will send you a confirmation email to activate your membership and for further procedure</p>
+
+      									<div class="iclearfix">
+        								<button id="button" type="submit" class="isignupbtn" style="background-color:red;">Register</button>
+									<button id="button" type="reset" class="resetbtn">Reset</button>
+      									</div>
+    							</div>
+							</div>
+						</form>
+						
+					
+			</div>
+			</div>
+			<span style="font-size:30px;cursor:pointer" onclick="openNav()"> <button id="button" class="btn" style="width:auto;">Register</button></span>
+
+			
+	</div>
+</div>
+
+<script>
+	// Get the modal
+	var modal = document.getElementById('id01');
+
+	// When the user clicks anywhere outside of the modal, close it
+	window.onclick = function(event) {
+    	if (event.target == modal) {
+        modal.style.display = "none";
+    }}
+
+	function openNav() {
+  	document.getElementById("myNav").style.width = "100%";
+	}
+
+	function closeNav() {
+  	document.getElementById("myNav").style.width = "0%";
+	}
+	
+</script>
+
+
+<div id="iheader">
+	<hr class="hLine">
+
+	<h1 style="font-family:Sofia,sans-serif; font-size:60px;"><b>Membership Details</b></h1>
+	<p style="margin-top:25px;">This activates based on the regions, 329/B, Hiripitiya East Gramaseva Division, Bandaranayake Road, Madawaththa, Vetex city homes,Polhena.</p>
+
+	
+		<p style="font-family:Times New Roman,serif;">
+		<br>
+		<br>
+		Additionally this is open for the village children who live outside of the gramadeva division.
+		<br>
+		To get the membership you have to upload a confirmation letter of Gramaseva Division <br></p>
+	
+	<hr class="hLine">
+	<div class="bottomimg" style="margin-top:50px;"></div>
+</div>
+
+	
+	<div class="footer">
+   <div class="hLine2"></div>
+
+    <div class="content">
+
+        <div class="left">
+            <h2>Connect with us</h2>
+
+            <div class="fb">
+            <a href="https://facebook.com/chamika.dilshan.3386"><span class="fab fa-facebook-f"></span></a> The Shanthi Society </div><br>
+            
+            <div class="social">
+                <div class="phon">
+                    Supporter Care : 011 2 487 946</div>
+                <div class="phone">
+                    <a href="tel:0112694059" ><span class="fas fa-phone-alt"></span></a> 0112694059
+                  </div> <br>
+                  <div class="email">
+                    <a href="mailto:support@shanthisoc.com" ><span class="fas fa-envelope"></span></a> support@shanthisoc.com
+                  </div>  
+            	</div>
+        	</div>
+
+        <div class="middle">
+            <h2>Write Us  .<span class="fa-solid fa-envelope-open"></span></h2>
+    
+            <div class="address">
+            <span class="text">The Shanthi Children Society,</span><br>
+            <span class="text">Veyangoda-Keenawala road,</span><br>
+            <span class="text">Veyangoda,</span><br>
+            <span class="text">Gampaha</span><br>
+            </div>
+        </div>
+
+        <div class="right">
+            <h2>Our location</h2>
+            <p><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3958.7188561668236!2d80.0597663!3d7.158467!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x7e84c2b6e380aba9!2s7%C2%B009&#39;30.5%22N%2080%C2%B003&#39;43.0%22E%2C%20(7.158467%2C%2080.061955)!5e0!3m2!1sen!2slk!4v1646983196362!5m2!1sen!2slk" width="400" height="350" style="border:0;" allowfullscreen="" loading="lazy"></iframe></p>
+        </div>    
+        
+
+    </div>
+    
+    <div class="links">
+        <h2>Quick Links</h2>
+        <ul>
+            <li><a href="../home page/home_3.html">Home</a></li>
+            <li><a href="../About-Us/aboutus.html">About Us</a></li>
+            <li><a href="../events/events.html">Events</a></li>
+            <li><a href="./Membership.html">Membership</a></li>
+        </ul>
+    </div>
+   
+
+     <div class="bottom">
+         @ The Shanthi Society 2022 | All Rights Reserved
+     </div>
+
+
+
+
+</div>
+</body>
+
+</html>

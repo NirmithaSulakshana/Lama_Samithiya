@@ -1,0 +1,178 @@
+* {
+	box-sizing:border-box;
+	padding: 0px;
+	margin: 0px;
+
+}
+
+.topheader{
+	
+	margin: auto;
+	width: auto;
+	padding: 25px 200px;
+	background-color: black;
+	text-align: center;
+	font-size: 80px;
+	color: rgb(255, 204, 0);
+	font-family:"Sofia", sans-serif;
+
+}
+
+.imgContainer{
+	margin: auto;
+	width: 1800px;
+
+}
+.center{
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+.nirmitha-container{
+	width: 100%;
+	border: 5px solid black;
+	margin: auto;
+
+}
+
+.nirmitha-slide{
+	display: flex;
+	
+	height: 600px;
+
+}
+
+.button {
+  background-color: black;
+  border-radius: 0px;
+  border: none;
+  padding: 28px 120px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 24px;
+  margin:auto;
+  transition-duration: 0.7s;
+  cursor: pointer;
+  float: right;
+  font-family: 'Times New Roman' , serif;
+
+}
+
+.button1 {
+  background-color: rgb(102, 0, 51); 
+  color: rgb(255, 204, 0); 
+  
+}
+.button1:hover {
+  background-color: rgb(255, 204, 0); 
+  color: rgb(102, 0, 51); 
+  
+}
+
+.menu{
+	height: 83px;
+	margin: auto;
+	width: auto;
+	background-color: rgb(102, 0, 51);
+}
+.logo{
+	width: 250px; 
+	height: 259px; 
+	float: left; 
+	position: fixed;
+	box-shadow: none;
+}
+.hLine{
+	background-color:rgb(255, 204, 0);
+	margin: auto;
+	height: 5px;
+	width: 1200px;
+	border-radius: 3px;
+	
+}
+
+.contentMy{
+	margin-left: 250px;
+	margin-right: 200px;
+	background-color:white;
+	height: 100%;
+}
+
+.para{
+	font-size: 30px;
+	font-family: 'Times New Roman' , serif;
+}
+.newHead{
+	font-size: 5vw;
+	font-family: "Sofia", sans-serif;
+	text-shadow: 4px 4px 6px rgb(115, 115, 115);
+}
+table{
+	margin-left: auto;
+	margin-right: auto;
+	width: 1200px;
+	height: 600px;
+}
+img{
+	box-shadow: 0px 0px 8px black;
+}
+
+.bar{
+	margin: auto;
+	height: 20px;
+	background-color:white;
+
+}
+
+
+/*------------------Pop up-----------------------*/
+
+div.polaroid {
+  width: 50%;
+  background-color:white;
+
+  margin-bottom: 25px;
+  margin-top: 25px;
+    
+    transition-duration: 0.7s;
+
+}
+
+div.polaroid:hover {
+  width: 100%;
+  background-color: rgb(255, 204, 0);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 1.0), 0 6px 20px 0 rgba(0, 0, 0, 1.0);
+  margin-bottom: 25px;
+  margin-top: 25px;
+     
+    transition-duration: 0.7s;
+}
+
+div.container {
+  text-align: center;
+  padding: 10px 20px;
+   border-radius:11px 
+}
+
+/*----------------------- card design-----------------------------------*/
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.1);
+  transition: 0.3s;
+  width: 600px;
+  height: 650px;
+  margin: auto;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,1.0);
+  
+}
+
+.myContainer {
+  padding: 2px 16px;
+}
+
+
